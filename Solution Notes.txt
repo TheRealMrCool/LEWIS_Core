@@ -1,0 +1,20 @@
+System overview:
+LEWIS is a Roomba iCreate_2 controlled over a proprietary serial connection by an Arduino Esplora. By utilizing the system's built in
+commands, we are able to query the robot for data (e.g. Right and Left encoder values) which, in turn, will be supplied in the
+appropriate form to a laptop (HS-ACOOL-T) running ROS v_Jade_Turtle on Ubuntu v_15.04. Packages running in ROS are roscore,
+robot_odometry, and MM_gmapping.
+robot_odometry is included in this solution as a .cpp. It was originally developed by Jiatong Bao to run on the Michigan State
+University Robotics and Automation Lab platform "Mobile Manipulator". It was then modified by Adam Cool to work in this application.
+MM_gmapping is a modified version of the ROS package gmapping, again to use on the Mobile Manipulator. No modifications are necessary
+since MM_gmapping was modified specifically to work in conjunction with robot_odometry.
+MM_gmapping produces a point cloud consisting of all points representing the closest point to the robot in a vertical plane.
+
+
+
+To do:
+Send odometry data from LEWIS to ROS (specifically to Robot_Odometry.cpp)
+	-receive encoder values from LEWIS and read into Esplora
+	-send in useable form over serial connection on USB to Robot_Odometry.cpp on HS-ACOOL-T
+		-baud rate? (as fast as possible)
+		-
+Prove map building capbility based on sent odometry data

@@ -1,0 +1,59 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "LEWIS_Core", "LEWIS_Core.vcxproj", "{3C45D9CD-D6C7-40D8-9006-961F1ADF1025}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{3C872932-70A8-4B10-BA60-64A4F2402D61}"
+	ProjectSection(SolutionItems) = preProject
+		Solution Notes.txt = Solution Notes.txt
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Robot_Odometry", "..\Project1\Project1.vcxproj", "{41A51E27-6E0A-4817-AECB-2CD32D690CE3}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "LEWIS_Core_v2_0", "..\LEWIS_Core_v2_0\LEWIS_Core_v2_0.vcxproj", "{C5F80730-F44F-4478-BDAE-6634EFC2CA88}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "LEWIS_Controller", "LEWIS_Controller\LEWIS_Controller.vcxproj", "{6D34381A-1189-4DC1-A089-18E619756B82}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3C45D9CD-D6C7-40D8-9006-961F1ADF1025}.Debug|x64.ActiveCfg = Debug|x64
+		{3C45D9CD-D6C7-40D8-9006-961F1ADF1025}.Debug|x64.Build.0 = Debug|x64
+		{3C45D9CD-D6C7-40D8-9006-961F1ADF1025}.Debug|x86.ActiveCfg = Debug|Win32
+		{3C45D9CD-D6C7-40D8-9006-961F1ADF1025}.Debug|x86.Build.0 = Debug|Win32
+		{3C45D9CD-D6C7-40D8-9006-961F1ADF1025}.Release|x64.ActiveCfg = Release|x64
+		{3C45D9CD-D6C7-40D8-9006-961F1ADF1025}.Release|x64.Build.0 = Release|x64
+		{3C45D9CD-D6C7-40D8-9006-961F1ADF1025}.Release|x86.ActiveCfg = Release|Win32
+		{3C45D9CD-D6C7-40D8-9006-961F1ADF1025}.Release|x86.Build.0 = Release|Win32
+		{41A51E27-6E0A-4817-AECB-2CD32D690CE3}.Debug|x64.ActiveCfg = Debug|x64
+		{41A51E27-6E0A-4817-AECB-2CD32D690CE3}.Debug|x64.Build.0 = Debug|x64
+		{41A51E27-6E0A-4817-AECB-2CD32D690CE3}.Debug|x86.ActiveCfg = Debug|Win32
+		{41A51E27-6E0A-4817-AECB-2CD32D690CE3}.Debug|x86.Build.0 = Debug|Win32
+		{41A51E27-6E0A-4817-AECB-2CD32D690CE3}.Release|x64.ActiveCfg = Release|x64
+		{41A51E27-6E0A-4817-AECB-2CD32D690CE3}.Release|x64.Build.0 = Release|x64
+		{41A51E27-6E0A-4817-AECB-2CD32D690CE3}.Release|x86.ActiveCfg = Release|Win32
+		{41A51E27-6E0A-4817-AECB-2CD32D690CE3}.Release|x86.Build.0 = Release|Win32
+		{C5F80730-F44F-4478-BDAE-6634EFC2CA88}.Debug|x64.ActiveCfg = Debug|Win32
+		{C5F80730-F44F-4478-BDAE-6634EFC2CA88}.Debug|x86.ActiveCfg = Debug|Win32
+		{C5F80730-F44F-4478-BDAE-6634EFC2CA88}.Debug|x86.Build.0 = Debug|Win32
+		{C5F80730-F44F-4478-BDAE-6634EFC2CA88}.Release|x64.ActiveCfg = Release|Win32
+		{C5F80730-F44F-4478-BDAE-6634EFC2CA88}.Release|x86.ActiveCfg = Release|Win32
+		{C5F80730-F44F-4478-BDAE-6634EFC2CA88}.Release|x86.Build.0 = Release|Win32
+		{6D34381A-1189-4DC1-A089-18E619756B82}.Debug|x64.ActiveCfg = Debug|Win32
+		{6D34381A-1189-4DC1-A089-18E619756B82}.Debug|x86.ActiveCfg = Debug|Win32
+		{6D34381A-1189-4DC1-A089-18E619756B82}.Debug|x86.Build.0 = Debug|Win32
+		{6D34381A-1189-4DC1-A089-18E619756B82}.Release|x64.ActiveCfg = Release|Win32
+		{6D34381A-1189-4DC1-A089-18E619756B82}.Release|x86.ActiveCfg = Release|Win32
+		{6D34381A-1189-4DC1-A089-18E619756B82}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
